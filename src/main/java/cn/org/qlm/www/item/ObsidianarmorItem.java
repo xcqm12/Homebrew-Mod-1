@@ -11,7 +11,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvents;
@@ -19,13 +18,13 @@ import net.minecraft.sounds.SoundEvent;
 
 import com.google.common.collect.Iterables;
 
-import cn.org.qlm.www.procedures.EmeraldarmorXueZiShiJianMeiYouXiKeProcedure;
-import cn.org.qlm.www.procedures.EmeraldarmorXiongJiaShiJianMeiYouXiKeProcedure;
-import cn.org.qlm.www.procedures.EmeraldarmorTouKuiShiJianMeiYouXiKeProcedure;
-import cn.org.qlm.www.procedures.EmeraldarmorHuTuiShiJianMeiYouXiKeProcedure;
+import cn.org.qlm.www.procedures.ObsidianarmorXueZiShiJianMeiYouXiKeProcedure;
+import cn.org.qlm.www.procedures.ObsidianarmorXiongJiaShiJianMeiYouXiKeProcedure;
+import cn.org.qlm.www.procedures.ObsidianarmorTouKuiShiJianMeiYouXiKeProcedure;
+import cn.org.qlm.www.procedures.ObsidianarmorHuTuiShiJianMeiYouXiKeProcedure;
 
-public abstract class EmeraldarmorItem extends ArmorItem {
-	public EmeraldarmorItem(ArmorItem.Type type, Item.Properties properties) {
+public abstract class ObsidianarmorItem extends ArmorItem {
+	public ObsidianarmorItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForType(ArmorItem.Type type) {
@@ -54,7 +53,7 @@ public abstract class EmeraldarmorItem extends ArmorItem {
 
 			@Override
 			public String getName() {
-				return "emeraldarmor";
+				return "obsidianarmor";
 			}
 
 			@Override
@@ -69,14 +68,14 @@ public abstract class EmeraldarmorItem extends ArmorItem {
 		}, type, properties);
 	}
 
-	public static class Helmet extends EmeraldarmorItem {
+	public static class Helmet extends ObsidianarmorItem {
 		public Helmet() {
 			super(ArmorItem.Type.HELMET, new Item.Properties().fireResistant());
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "mod:textures/models/armor/emerald_layer_1.png";
+			return "mod:textures/models/armor/refined_obsidian_layer_1.png";
 		}
 
 		@Override
@@ -86,27 +85,22 @@ public abstract class EmeraldarmorItem extends ArmorItem {
 		}
 
 		@Override
-		public boolean makesPiglinsNeutral(ItemStack itemstack, LivingEntity entity) {
-			return true;
-		}
-
-		@Override
 		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 			super.inventoryTick(itemstack, world, entity, slot, selected);
 			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
-				EmeraldarmorTouKuiShiJianMeiYouXiKeProcedure.execute(entity);
+				ObsidianarmorTouKuiShiJianMeiYouXiKeProcedure.execute(entity);
 			}
 		}
 	}
 
-	public static class Chestplate extends EmeraldarmorItem {
+	public static class Chestplate extends ObsidianarmorItem {
 		public Chestplate() {
 			super(ArmorItem.Type.CHESTPLATE, new Item.Properties().fireResistant());
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "mod:textures/models/armor/emerald_layer_1.png";
+			return "mod:textures/models/armor/refined_obsidian_layer_1.png";
 		}
 
 		@Override
@@ -116,27 +110,22 @@ public abstract class EmeraldarmorItem extends ArmorItem {
 		}
 
 		@Override
-		public boolean makesPiglinsNeutral(ItemStack itemstack, LivingEntity entity) {
-			return true;
-		}
-
-		@Override
 		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 			super.inventoryTick(itemstack, world, entity, slot, selected);
 			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
-				EmeraldarmorXiongJiaShiJianMeiYouXiKeProcedure.execute(entity);
+				ObsidianarmorXiongJiaShiJianMeiYouXiKeProcedure.execute(entity);
 			}
 		}
 	}
 
-	public static class Leggings extends EmeraldarmorItem {
+	public static class Leggings extends ObsidianarmorItem {
 		public Leggings() {
 			super(ArmorItem.Type.LEGGINGS, new Item.Properties().fireResistant());
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "mod:textures/models/armor/emerald_layer_2.png";
+			return "mod:textures/models/armor/refined_obsidian_layer_2.png";
 		}
 
 		@Override
@@ -146,27 +135,22 @@ public abstract class EmeraldarmorItem extends ArmorItem {
 		}
 
 		@Override
-		public boolean makesPiglinsNeutral(ItemStack itemstack, LivingEntity entity) {
-			return true;
-		}
-
-		@Override
 		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 			super.inventoryTick(itemstack, world, entity, slot, selected);
 			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
-				EmeraldarmorHuTuiShiJianMeiYouXiKeProcedure.execute(entity);
+				ObsidianarmorHuTuiShiJianMeiYouXiKeProcedure.execute(entity);
 			}
 		}
 	}
 
-	public static class Boots extends EmeraldarmorItem {
+	public static class Boots extends ObsidianarmorItem {
 		public Boots() {
 			super(ArmorItem.Type.BOOTS, new Item.Properties().fireResistant());
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "mod:textures/models/armor/emerald_layer_1.png";
+			return "mod:textures/models/armor/refined_obsidian_layer_1.png";
 		}
 
 		@Override
@@ -176,15 +160,10 @@ public abstract class EmeraldarmorItem extends ArmorItem {
 		}
 
 		@Override
-		public boolean makesPiglinsNeutral(ItemStack itemstack, LivingEntity entity) {
-			return true;
-		}
-
-		@Override
 		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 			super.inventoryTick(itemstack, world, entity, slot, selected);
 			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
-				EmeraldarmorXueZiShiJianMeiYouXiKeProcedure.execute(entity);
+				ObsidianarmorXueZiShiJianMeiYouXiKeProcedure.execute(entity);
 			}
 		}
 	}

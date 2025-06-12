@@ -8,20 +8,19 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attribute;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 
 import com.google.common.collect.Multimap;
 import com.google.common.collect.ImmutableMultimap;
 
-public class CopperaxeItem extends Item {
-	public CopperaxeItem() {
-		super(new Item.Properties().durability(200).rarity(Rarity.COMMON));
+public class Axe1Item extends Item {
+	public Axe1Item() {
+		super(new Item.Properties().stacksTo(1).fireResistant().rarity(Rarity.RARE));
 	}
 
 	@Override
 	public int getEnchantmentValue() {
-		return 10;
+		return 30;
 	}
 
 	@Override
@@ -43,12 +42,6 @@ public class CopperaxeItem extends Item {
 
 	@Override
 	public boolean isCorrectToolForDrops(BlockState state) {
-		return true;
-	}
-
-	@Override
-	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
-		itemstack.hurtAndBreak(1, entity, i -> i.broadcastBreakEvent(EquipmentSlot.MAINHAND));
 		return true;
 	}
 }

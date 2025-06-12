@@ -8,8 +8,8 @@
       "registry_name": "axe_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mod/models/item/axe_1.json",
-          "src/main/java/net/mcreator/mod/item/Axe1Item.java"
+          "src/main/java/cn/org/qlm/www/item/Axe1Item.java",
+          "src/main/resources/assets/mod/models/item/axe_1.json"
         ]
       }
     },
@@ -21,7 +21,7 @@
       "registry_name": "obsidianarmor_tou_kui_shi_jian_mei_you_xi_ke",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mod/procedures/ObsidianarmorTouKuiShiJianMeiYouXiKeProcedure.java"
+          "src/main/java/cn/org/qlm/www/procedures/ObsidianarmorTouKuiShiJianMeiYouXiKeProcedure.java"
         ],
         "dependencies": [
           {
@@ -39,7 +39,7 @@
       "registry_name": "obsidianarmor_xiong_jia_shi_jian_mei_you_xi_ke",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mod/procedures/ObsidianarmorXiongJiaShiJianMeiYouXiKeProcedure.java"
+          "src/main/java/cn/org/qlm/www/procedures/ObsidianarmorXiongJiaShiJianMeiYouXiKeProcedure.java"
         ],
         "dependencies": [
           {
@@ -57,7 +57,7 @@
       "registry_name": "obsidianarmor_xue_zi_shi_jian_mei_you_xi_ke",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mod/procedures/ObsidianarmorXueZiShiJianMeiYouXiKeProcedure.java"
+          "src/main/java/cn/org/qlm/www/procedures/ObsidianarmorXueZiShiJianMeiYouXiKeProcedure.java"
         ],
         "dependencies": [
           {
@@ -75,7 +75,7 @@
       "registry_name": "obsidianarmor_hu_tui_shi_jian_mei_you_xi_ke",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mod/procedures/ObsidianarmorHuTuiShiJianMeiYouXiKeProcedure.java"
+          "src/main/java/cn/org/qlm/www/procedures/ObsidianarmorHuTuiShiJianMeiYouXiKeProcedure.java"
         ],
         "dependencies": [
           {
@@ -95,9 +95,9 @@
         "files": [
           "src/main/resources/assets/mod/models/item/obsidianarmor_boots.json",
           "src/main/resources/assets/mod/models/item/obsidianarmor_leggings.json",
+          "src/main/java/cn/org/qlm/www/item/ObsidianarmorItem.java",
           "src/main/resources/assets/mod/models/item/obsidianarmor_chestplate.json",
-          "src/main/resources/assets/mod/models/item/obsidianarmor_helmet.json",
-          "src/main/java/net/mcreator/mod/item/ObsidianarmorItem.java"
+          "src/main/resources/assets/mod/models/item/obsidianarmor_helmet.json"
         ]
       }
     },
@@ -110,7 +110,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/mod/models/item/copperarrow.json",
-          "src/main/java/net/mcreator/mod/item/CopperarrowItem.java"
+          "src/main/java/cn/org/qlm/www/item/CopperarrowItem.java"
         ]
       }
     },
@@ -122,7 +122,7 @@
       "registry_name": "copperaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mod/item/CopperaxeItem.java",
+          "src/main/java/cn/org/qlm/www/item/CopperaxeItem.java",
           "src/main/resources/assets/mod/models/item/copperaxe.json"
         ]
       }
@@ -139,7 +139,7 @@
           "src/main/resources/assets/mod/models/item/copperarmor_boots.json",
           "src/main/resources/assets/mod/models/item/copperarmor_leggings.json",
           "src/main/resources/assets/mod/models/item/copperarmor_helmet.json",
-          "src/main/java/net/mcreator/mod/item/CopperarmorItem.java"
+          "src/main/java/cn/org/qlm/www/item/CopperarmorItem.java"
         ]
       }
     },
@@ -151,7 +151,7 @@
       "registry_name": "copperhoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mod/item/CopperhoeItem.java",
+          "src/main/java/cn/org/qlm/www/item/CopperhoeItem.java",
           "src/main/resources/assets/mod/models/item/copperhoe.json"
         ]
       }
@@ -164,8 +164,187 @@
       "registry_name": "copperhorsearmor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mod/models/item/copperhorsearmor.json",
-          "src/main/java/net/mcreator/mod/item/CopperhorsearmorItem.java"
+          "src/main/java/cn/org/qlm/www/item/CopperhorsearmorItem.java",
+          "src/main/resources/assets/mod/models/item/copperhorsearmor.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperpickaxe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/CopperpickaxeItem.java",
+          "src/main/resources/assets/mod/models/item/copperpickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Coppershears",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppershears",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mod/models/item/coppershears.json",
+          "src/main/java/cn/org/qlm/www/item/CoppershearsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Coppershovel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppershovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mod/models/item/coppershovel.json",
+          "src/main/java/cn/org/qlm/www/item/CoppershovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Coppersword",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppersword",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/CopperswordItem.java",
+          "src/main/resources/assets/mod/models/item/coppersword.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldaxe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mod/models/item/emeraldaxe.json",
+          "src/main/java/cn/org/qlm/www/item/EmeraldaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldpickaxe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mod/models/item/emeraldpickaxe.json",
+          "src/main/java/cn/org/qlm/www/item/EmeraldpickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldarmorTouKuiShiJianMeiYouXiKe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldarmor_tou_kui_shi_jian_mei_you_xi_ke",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/procedures/EmeraldarmorTouKuiShiJianMeiYouXiKeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmeraldarmorXiongJiaShiJianMeiYouXiKe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldarmor_xiong_jia_shi_jian_mei_you_xi_ke",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/procedures/EmeraldarmorXiongJiaShiJianMeiYouXiKeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmeraldarmorHuTuiShiJianMeiYouXiKe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldarmor_hu_tui_shi_jian_mei_you_xi_ke",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/procedures/EmeraldarmorHuTuiShiJianMeiYouXiKeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmeraldarmorXueZiShiJianMeiYouXiKe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldarmor_xue_zi_shi_jian_mei_you_xi_ke",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/procedures/EmeraldarmorXueZiShiJianMeiYouXiKeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Emeraldarmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldarmor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mod/models/item/emeraldarmor_leggings.json",
+          "src/main/resources/assets/mod/models/item/emeraldarmor_chestplate.json",
+          "src/main/java/cn/org/qlm/www/item/EmeraldarmorItem.java",
+          "src/main/resources/assets/mod/models/item/emeraldarmor_helmet.json",
+          "src/main/resources/assets/mod/models/item/emeraldarmor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldshovel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldshovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mod/models/item/emeraldshovel.json",
+          "src/main/java/cn/org/qlm/www/item/EmeraldshovelItem.java"
         ]
       }
     }
@@ -185,18 +364,29 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "subtitles.gouhuo": "",
       "item.mod.copperarmor_leggings": "Copperarmor护腿",
-      "item.mod.obsidianarmor_boots": "Obsidianarmor靴子",
-      "item.mod.obsidianarmor_helmet": "Obsidianarmor头盔",
       "item.mod.copperarrow": "Copperarrow",
-      "item.mod.obsidianarmor_chestplate": "Obsidianarmor胸甲",
-      "item.mod.copperarmor_chestplate": "Copperarmor胸甲",
       "item.mod.copperhoe": "Copperhoe",
-      "item.mod.obsidianarmor_leggings": "Obsidianarmor护腿",
-      "item.mod.axe_1": "Axe 1",
+      "item.mod.copperpickaxe": "Copperpickaxe",
       "item.mod.copperarmor_helmet": "Copperarmor头盔",
+      "subtitles.gouhuo": "",
+      "item.mod.obsidianarmor_boots": "Obsidianarmor靴子",
+      "item.mod.emeraldarmor_chestplate": "Emeraldarmor胸甲",
+      "item.mod.obsidianarmor_helmet": "Obsidianarmor头盔",
+      "item.mod.emeraldarmor_boots": "Emeraldarmor靴子",
+      "item.mod.copperarmor_chestplate": "Copperarmor胸甲",
+      "item.mod.obsidianarmor_chestplate": "Obsidianarmor胸甲",
+      "item.mod.obsidianarmor_leggings": "Obsidianarmor护腿",
+      "item.mod.emeraldshovel": "Emeraldshovel",
+      "item.mod.coppershovel": "Coppershovel",
+      "item.mod.emeraldaxe": "Emeraldaxe",
+      "item.mod.emeraldpickaxe": "Emeraldpickaxe",
+      "item.mod.coppersword": "Coppersword",
+      "item.mod.coppershears": "Coppershears",
+      "item.mod.emeraldarmor_leggings": "Emeraldarmor护腿",
+      "item.mod.axe_1": "Axe 1",
       "item.mod.copperarmor_boots": "Copperarmor靴子",
+      "item.mod.emeraldarmor_helmet": "Emeraldarmor头盔",
       "item.mod.copperaxe": "Copperaxe",
       "item.mod.copperhorsearmor": "Copperhorsearmor"
     }
@@ -220,7 +410,7 @@
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "net.mcreator.mod"
+    "modElementsPackage": "cn.org.qlm.www"
   },
   "mcreatorVersion": 202400452410
 }
