@@ -1,0 +1,226 @@
+{
+  "mod_elements": [
+    {
+      "name": "Axe1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mod/models/item/axe_1.json",
+          "src/main/java/net/mcreator/mod/item/Axe1Item.java"
+        ]
+      }
+    },
+    {
+      "name": "ObsidianarmorTouKuiShiJianMeiYouXiKe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianarmor_tou_kui_shi_jian_mei_you_xi_ke",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mod/procedures/ObsidianarmorTouKuiShiJianMeiYouXiKeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ObsidianarmorXiongJiaShiJianMeiYouXiKe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianarmor_xiong_jia_shi_jian_mei_you_xi_ke",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mod/procedures/ObsidianarmorXiongJiaShiJianMeiYouXiKeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ObsidianarmorXueZiShiJianMeiYouXiKe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianarmor_xue_zi_shi_jian_mei_you_xi_ke",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mod/procedures/ObsidianarmorXueZiShiJianMeiYouXiKeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ObsidianarmorHuTuiShiJianMeiYouXiKe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianarmor_hu_tui_shi_jian_mei_you_xi_ke",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mod/procedures/ObsidianarmorHuTuiShiJianMeiYouXiKeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Obsidianarmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianarmor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mod/models/item/obsidianarmor_boots.json",
+          "src/main/resources/assets/mod/models/item/obsidianarmor_leggings.json",
+          "src/main/resources/assets/mod/models/item/obsidianarmor_chestplate.json",
+          "src/main/resources/assets/mod/models/item/obsidianarmor_helmet.json",
+          "src/main/java/net/mcreator/mod/item/ObsidianarmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Copperarrow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperarrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mod/models/item/copperarrow.json",
+          "src/main/java/net/mcreator/mod/item/CopperarrowItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Copperaxe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mod/item/CopperaxeItem.java",
+          "src/main/resources/assets/mod/models/item/copperaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperarmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperarmor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mod/models/item/copperarmor_chestplate.json",
+          "src/main/resources/assets/mod/models/item/copperarmor_boots.json",
+          "src/main/resources/assets/mod/models/item/copperarmor_leggings.json",
+          "src/main/resources/assets/mod/models/item/copperarmor_helmet.json",
+          "src/main/java/net/mcreator/mod/item/CopperarmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Copperhoe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperhoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mod/item/CopperhoeItem.java",
+          "src/main/resources/assets/mod/models/item/copperhoe.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperhorsearmor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperhorsearmor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mod/models/item/copperhorsearmor.json",
+          "src/main/java/net/mcreator/mod/item/CopperhorsearmorItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "gouhuo",
+      "files": [
+        "gouhuo"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "subtitles.gouhuo": "",
+      "item.mod.copperarmor_leggings": "Copperarmor护腿",
+      "item.mod.obsidianarmor_boots": "Obsidianarmor靴子",
+      "item.mod.obsidianarmor_helmet": "Obsidianarmor头盔",
+      "item.mod.copperarrow": "Copperarrow",
+      "item.mod.obsidianarmor_chestplate": "Obsidianarmor胸甲",
+      "item.mod.copperarmor_chestplate": "Copperarmor胸甲",
+      "item.mod.copperhoe": "Copperhoe",
+      "item.mod.obsidianarmor_leggings": "Obsidianarmor护腿",
+      "item.mod.axe_1": "Axe 1",
+      "item.mod.copperarmor_helmet": "Copperarmor头盔",
+      "item.mod.copperarmor_boots": "Copperarmor靴子",
+      "item.mod.copperaxe": "Copperaxe",
+      "item.mod.copperhorsearmor": "Copperhorsearmor"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mod",
+    "modName": "00997",
+    "version": "1.0.0",
+    "author": "Administrator, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "d63741c396b49637d038a7ef1543c877-1",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.mod"
+  },
+  "mcreatorVersion": 202400452410
+}

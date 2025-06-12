@@ -1,0 +1,10 @@
+{
+  "gouhuo": {
+    "sounds": [
+      {
+        "name": "mod:gouhuo",
+        "stream": true
+      }
+    ]
+  }
+}
