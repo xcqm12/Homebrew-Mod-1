@@ -50,5 +50,27 @@ tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
 }
 
+task copyResources(type: Copy) {
+    from 'src/main/resources'
+    into 'build/resources'
+    duplicatesStrategy = 'exclude'  // 'exclude' 或 'include', 'fail', 'warn'
+}
+
+jar {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE  // 或 INCLUDE、WARN、FAIL
+}
+
+subprojects {
+    tasks.withType(Copy) {
+        duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    }
+}
+
+configurations.all {
+    resolutionStrategy {
+        force 'com.conflict:module:1.2.3'
+    }
+}
+
 apply from: 'mcreator.gradle'
 

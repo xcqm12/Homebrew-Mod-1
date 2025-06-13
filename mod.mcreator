@@ -347,6 +347,204 @@
           "src/main/java/cn/org/qlm/www/item/EmeraldshovelItem.java"
         ]
       }
+    },
+    {
+      "name": "Emeraldsword",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldsword",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/EmeraldswordItem.java",
+          "src/main/resources/assets/mod/models/item/emeraldsword.json"
+        ]
+      }
+    },
+    {
+      "name": "Glassaxe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/GlassaxeItem.java",
+          "src/main/resources/assets/mod/models/item/glassaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Glassarmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassarmor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mod/models/item/glassarmor_helmet.json",
+          "src/main/resources/assets/mod/models/item/glassarmor_boots.json",
+          "src/main/resources/assets/mod/models/item/glassarmor_chestplate.json",
+          "src/main/resources/assets/mod/models/item/glassarmor_leggings.json",
+          "src/main/java/cn/org/qlm/www/item/GlassarmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Glasshoe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glasshoe",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/GlasshoeItem.java",
+          "src/main/resources/assets/mod/models/item/glasshoe.json"
+        ]
+      }
+    },
+    {
+      "name": "Glassingot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mod/models/item/glassingot.json",
+          "src/main/java/cn/org/qlm/www/item/GlassingotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Glasspickaxe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glasspickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/GlasspickaxeItem.java",
+          "src/main/resources/assets/mod/models/item/glasspickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Glassshovel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassshovel",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/GlassshovelItem.java",
+          "src/main/resources/assets/mod/models/item/glassshovel.json"
+        ]
+      }
+    },
+    {
+      "name": "Glasssword",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glasssword",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/GlassswordItem.java",
+          "src/main/resources/assets/mod/models/item/glasssword.json"
+        ]
+      }
+    },
+    {
+      "name": "Glassstick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassstick",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/GlassstickItem.java",
+          "src/main/resources/assets/mod/models/item/glassstick.json"
+        ]
+      }
+    },
+    {
+      "name": "Hoe1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mod/models/item/hoe_1.json",
+          "src/main/java/cn/org/qlm/www/item/Hoe1Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Musicdiscgouhuo",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musicdiscgouhuo",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/MusicdiscgouhuoItem.java",
+          "src/main/resources/assets/mod/models/item/musicdiscgouhuo.json"
+        ]
+      }
+    },
+    {
+      "name": "Paxel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paxel",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/PaxelItem.java",
+          "src/main/resources/assets/mod/models/item/paxel.json"
+        ]
+      }
+    },
+    {
+      "name": "Pickaxe1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickaxe_1",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/Pickaxe1Item.java",
+          "src/main/resources/assets/mod/models/item/pickaxe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Shovel1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shovel_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mod/models/item/shovel_1.json",
+          "src/main/java/cn/org/qlm/www/item/Shovel1Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Sword1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_1",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/Sword1Item.java",
+          "src/main/resources/assets/mod/models/item/sword_1.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -360,24 +558,47 @@
       "subtitle": ""
     }
   ],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Musicdiscgouhuo"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item.mod.copperarmor_leggings": "Copperarmor护腿",
+      "item.mod.sword_1": "Sword 1",
+      "item.mod.glassarmor_helmet": "Glassarmor头盔",
+      "item.mod.hoe_1": "Hoe 1",
+      "item.mod.glasshoe": "Glasshoe",
       "item.mod.copperarrow": "Copperarrow",
+      "item.mod.glassstick": "Glassstick",
+      "item.mod.paxel": "Paxel",
+      "item.mod.pickaxe_1": "Pickaxe 1",
       "item.mod.copperhoe": "Copperhoe",
+      "item.mod.glassarmor_chestplate": "Glassarmor胸甲",
+      "item.mod.glasssword": "Glasssword",
+      "item.mod.glassshovel": "Glassshovel",
+      "item.mod.glassingot": "Glassingot",
       "item.mod.copperpickaxe": "Copperpickaxe",
+      "item.mod.glassarmor_leggings": "Glassarmor护腿",
+      "item.mod.glassaxe": "Glassaxe",
       "item.mod.copperarmor_helmet": "Copperarmor头盔",
+      "item.mod.shovel_1": "Shovel 1",
+      "item.mod.musicdiscgouhuo.desc": "gouhuo",
       "subtitles.gouhuo": "",
       "item.mod.obsidianarmor_boots": "Obsidianarmor靴子",
       "item.mod.emeraldarmor_chestplate": "Emeraldarmor胸甲",
+      "item.mod.musicdiscgouhuo": "Musicdiscgouhuo",
+      "item.mod.emeraldsword": "Emeraldsword",
       "item.mod.obsidianarmor_helmet": "Obsidianarmor头盔",
+      "item.mod.glasspickaxe": "Glasspickaxe",
       "item.mod.emeraldarmor_boots": "Emeraldarmor靴子",
       "item.mod.copperarmor_chestplate": "Copperarmor胸甲",
       "item.mod.obsidianarmor_chestplate": "Obsidianarmor胸甲",
       "item.mod.obsidianarmor_leggings": "Obsidianarmor护腿",
       "item.mod.emeraldshovel": "Emeraldshovel",
+      "item.mod.glassarmor_boots": "Glassarmor靴子",
       "item.mod.coppershovel": "Coppershovel",
       "item.mod.emeraldaxe": "Emeraldaxe",
       "item.mod.emeraldpickaxe": "Emeraldpickaxe",

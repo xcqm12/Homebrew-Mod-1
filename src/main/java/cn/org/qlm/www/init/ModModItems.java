@@ -10,7 +10,22 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import cn.org.qlm.www.item.Sword1Item;
+import cn.org.qlm.www.item.Shovel1Item;
+import cn.org.qlm.www.item.Pickaxe1Item;
+import cn.org.qlm.www.item.PaxelItem;
 import cn.org.qlm.www.item.ObsidianarmorItem;
+import cn.org.qlm.www.item.MusicdiscgouhuoItem;
+import cn.org.qlm.www.item.Hoe1Item;
+import cn.org.qlm.www.item.GlassswordItem;
+import cn.org.qlm.www.item.GlassstickItem;
+import cn.org.qlm.www.item.GlassshovelItem;
+import cn.org.qlm.www.item.GlasspickaxeItem;
+import cn.org.qlm.www.item.GlassingotItem;
+import cn.org.qlm.www.item.GlasshoeItem;
+import cn.org.qlm.www.item.GlassaxeItem;
+import cn.org.qlm.www.item.GlassarmorItem;
+import cn.org.qlm.www.item.EmeraldswordItem;
 import cn.org.qlm.www.item.EmeraldshovelItem;
 import cn.org.qlm.www.item.EmeraldpickaxeItem;
 import cn.org.qlm.www.item.EmeraldaxeItem;
@@ -53,6 +68,24 @@ public class ModModItems {
 	public static final RegistryObject<Item> EMERALDARMOR_LEGGINGS = REGISTRY.register("emeraldarmor_leggings", () -> new EmeraldarmorItem.Leggings());
 	public static final RegistryObject<Item> EMERALDARMOR_BOOTS = REGISTRY.register("emeraldarmor_boots", () -> new EmeraldarmorItem.Boots());
 	public static final RegistryObject<Item> EMERALDSHOVEL = REGISTRY.register("emeraldshovel", () -> new EmeraldshovelItem());
+	public static final RegistryObject<Item> EMERALDSWORD = REGISTRY.register("emeraldsword", () -> new EmeraldswordItem());
+	public static final RegistryObject<Item> GLASSAXE = REGISTRY.register("glassaxe", () -> new GlassaxeItem());
+	public static final RegistryObject<Item> GLASSARMOR_HELMET = REGISTRY.register("glassarmor_helmet", () -> new GlassarmorItem.Helmet());
+	public static final RegistryObject<Item> GLASSARMOR_CHESTPLATE = REGISTRY.register("glassarmor_chestplate", () -> new GlassarmorItem.Chestplate());
+	public static final RegistryObject<Item> GLASSARMOR_LEGGINGS = REGISTRY.register("glassarmor_leggings", () -> new GlassarmorItem.Leggings());
+	public static final RegistryObject<Item> GLASSARMOR_BOOTS = REGISTRY.register("glassarmor_boots", () -> new GlassarmorItem.Boots());
+	public static final RegistryObject<Item> GLASSHOE = REGISTRY.register("glasshoe", () -> new GlasshoeItem());
+	public static final RegistryObject<Item> GLASSINGOT = REGISTRY.register("glassingot", () -> new GlassingotItem());
+	public static final RegistryObject<Item> GLASSPICKAXE = REGISTRY.register("glasspickaxe", () -> new GlasspickaxeItem());
+	public static final RegistryObject<Item> GLASSSHOVEL = REGISTRY.register("glassshovel", () -> new GlassshovelItem());
+	public static final RegistryObject<Item> GLASSSWORD = REGISTRY.register("glasssword", () -> new GlassswordItem());
+	public static final RegistryObject<Item> GLASSSTICK = REGISTRY.register("glassstick", () -> new GlassstickItem());
+	public static final RegistryObject<Item> HOE_1 = REGISTRY.register("hoe_1", () -> new Hoe1Item());
+	public static final RegistryObject<Item> MUSICDISCGOUHUO = REGISTRY.register("musicdiscgouhuo", () -> new MusicdiscgouhuoItem());
+	public static final RegistryObject<Item> PAXEL = REGISTRY.register("paxel", () -> new PaxelItem());
+	public static final RegistryObject<Item> PICKAXE_1 = REGISTRY.register("pickaxe_1", () -> new Pickaxe1Item());
+	public static final RegistryObject<Item> SHOVEL_1 = REGISTRY.register("shovel_1", () -> new Shovel1Item());
+	public static final RegistryObject<Item> SWORD_1 = REGISTRY.register("sword_1", () -> new Sword1Item());
 	// Start of user code block custom items
 	// End of user code block custom items
 }

@@ -31,6 +31,13 @@ public class ModModTabs {
 			tabData.accept(ModModItems.EMERALDAXE.get());
 			tabData.accept(ModModItems.EMERALDPICKAXE.get());
 			tabData.accept(ModModItems.EMERALDSHOVEL.get());
+			tabData.accept(ModModItems.GLASSHOE.get());
+			tabData.accept(ModModItems.GLASSPICKAXE.get());
+			tabData.accept(ModModItems.GLASSSHOVEL.get());
+			tabData.accept(ModModItems.HOE_1.get());
+			tabData.accept(ModModItems.PAXEL.get());
+			tabData.accept(ModModItems.PICKAXE_1.get());
+			tabData.accept(ModModItems.SHOVEL_1.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(ModModItems.OBSIDIANARMOR_HELMET.get());
 			tabData.accept(ModModItems.OBSIDIANARMOR_CHESTPLATE.get());
@@ -46,6 +53,20 @@ public class ModModTabs {
 			tabData.accept(ModModItems.EMERALDARMOR_CHESTPLATE.get());
 			tabData.accept(ModModItems.EMERALDARMOR_LEGGINGS.get());
 			tabData.accept(ModModItems.EMERALDARMOR_BOOTS.get());
+			tabData.accept(ModModItems.EMERALDSWORD.get());
+			tabData.accept(ModModItems.GLASSAXE.get());
+			tabData.accept(ModModItems.GLASSARMOR_HELMET.get());
+			tabData.accept(ModModItems.GLASSARMOR_CHESTPLATE.get());
+			tabData.accept(ModModItems.GLASSARMOR_LEGGINGS.get());
+			tabData.accept(ModModItems.GLASSARMOR_BOOTS.get());
+			tabData.accept(ModModItems.GLASSSWORD.get());
+			tabData.accept(ModModItems.PAXEL.get());
+			tabData.accept(ModModItems.SWORD_1.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(ModModItems.GLASSINGOT.get());
+			tabData.accept(ModModItems.GLASSSTICK.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+			tabData.accept(ModModItems.MUSICDISCGOUHUO.get());
 		}
 	}
 }
