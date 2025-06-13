@@ -1,0 +1,28 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "obsidian_boots",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.DIAMOND_BOOTS"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Blocks.OBSIDIAN"
+    },
+    "smithingInputTemplateStack": {
+      "value": "Items.NETHERITE_UPGRADE"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:Obsidianarmor.boots"
+    },
+    "name": "obsidianboots",
+    "namespace": "mod"
+  }
+}

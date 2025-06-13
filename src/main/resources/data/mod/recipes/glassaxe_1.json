@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "glass_axe",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mod:glassingot"
+    },
+    {
+      "item": "mod:glassingot"
+    },
+    {
+      "item": "mod:glassingot"
+    },
+    {
+      "item": "mod:glassstick"
+    },
+    {
+      "item": "mod:glassstick"
+    }
+  ],
+  "result": {
+    "item": "mod:glassaxe",
+    "count": 1
+  }
+}

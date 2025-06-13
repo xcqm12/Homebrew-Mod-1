@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "glass_ingot",
+  "category": "misc",
+  "experience": 5,
+  "cookingtime": 180,
+  "ingredient": {
+    "item": "minecraft:glass"
+  },
+  "result": "mod:glassingot"
+}

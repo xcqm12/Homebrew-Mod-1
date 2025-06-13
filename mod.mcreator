@@ -545,6 +545,510 @@
           "src/main/resources/assets/mod/models/item/sword_1.json"
         ]
       }
+    },
+    {
+      "name": "Axe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/axe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Hoe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/hoe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Paxel2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paxel_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/paxel_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Pickaxe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickaxe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/pickaxe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Shovel2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shovel_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/shovel_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Sword2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/sword_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperarrow1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperarrow_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/copperarrow_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperaxe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperaxe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/copperaxe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperboots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperboots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/copperboots.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperchestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperchestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/copperchestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperhelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperhelmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/copperhelmet.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperhorsearmor1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperhorsearmor_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/copperhorsearmor_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperleggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperleggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/copperleggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperpickaxe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperpickaxe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/copperpickaxe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Coppershears1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppershears_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/coppershears_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Coppershovel1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppershovel_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/coppershovel_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Coppersword1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppersword_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/coppersword_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldaxe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldaxe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/emeraldaxe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldboots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldboots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/emeraldboots.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldchestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldchestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/emeraldchestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldhelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldhelmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/emeraldhelmet.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldleggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldleggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/emeraldleggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldpickaxe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldpickaxe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/emeraldpickaxe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldshovel1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldshovel_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/emeraldshovel_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldsword1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldsword_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/emeraldsword_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Glassaxe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassaxe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/glassaxe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Glasssstick",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glasssstick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/glassstick.json"
+        ]
+      }
+    },
+    {
+      "name": "Glassboots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassboots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/glassboots.json"
+        ]
+      }
+    },
+    {
+      "name": "Glasschestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glasschestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/glasschestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Glasshelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glasshelmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/glasshelmet.json"
+        ]
+      }
+    },
+    {
+      "name": "Glasshoe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glasshoe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/glasshoe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Glassingot1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassingot_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/glassingot_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Glassleggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassleggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/glassleggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Glasspickaxe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glasspickaxe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/glasspickaxe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Glassshovel1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassshovel_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/glassshovel_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Glassstick1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassstick_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/glassstick_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Glasssword1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glasssword_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/glasssword_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Obsidianhelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianhelmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/obsidianhelmet.json"
+        ]
+      }
+    },
+    {
+      "name": "ObsidianLeggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/obsidian_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Obsidianboots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianboots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/obsidianboots.json"
+        ]
+      }
+    },
+    {
+      "name": "Obsidianchestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianchestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/obsidianchestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Obsidianchestplate1",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianchestplate_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/advancements/obsidianchestplate_1.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -581,10 +1085,12 @@
       "item.mod.glassshovel": "Glassshovel",
       "item.mod.glassingot": "Glassingot",
       "item.mod.copperpickaxe": "Copperpickaxe",
+      "advancements.obsidianchestplate_1.title": "Obsidianchestplate 1",
       "item.mod.glassarmor_leggings": "Glassarmor护腿",
       "item.mod.glassaxe": "Glassaxe",
       "item.mod.copperarmor_helmet": "Copperarmor头盔",
       "item.mod.shovel_1": "Shovel 1",
+      "advancements.obsidianchestplate_1.descr": "obsidianchestplate",
       "item.mod.musicdiscgouhuo.desc": "gouhuo",
       "subtitles.gouhuo": "",
       "item.mod.obsidianarmor_boots": "Obsidianarmor靴子",

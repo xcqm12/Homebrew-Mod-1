@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "glass_chestplate",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "mod:glassingot"
+    }
+  },
+  "result": {
+    "item": "mod:glassarmor_chestplate",
+    "count": 1
+  }
+}

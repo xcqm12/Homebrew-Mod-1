@@ -1,0 +1,28 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "copper_chestplate",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.LEATHER_CHESTPLATE"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.COPPER_INGOT"
+    },
+    "smithingInputTemplateStack": {
+      "value": "Items.COPPER_INGOT"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:Copperarmor.body"
+    },
+    "name": "copperchestplate",
+    "namespace": "mod"
+  }
+}
